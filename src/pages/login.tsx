@@ -42,6 +42,7 @@ export default function Login() {
                                     htmlFor="password"
                                 >Password</Label>
                                 <Input
+                                    type="password"
                                     id="password"
                                     placeholder="Password"
                                     value={password}

@@ -43,6 +43,7 @@ export default function Signup() {
                                 >Password</Label>
                                 <Input
                                     id="password"
+                                    type="password"
                                     placeholder="Password"
                                     value={password}
                                     onChange={(e) => setPassword(e.target.value)}

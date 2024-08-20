@@ -18,7 +18,7 @@ export const SolWallet = () => {
         <div className="flex flex-col items-center justify-between">
             <Card className="w-[400px]">
                 <CardHeader>
-                    <CardTitle>ETH Wallet</CardTitle>
+                    <CardTitle>SOL Wallet</CardTitle>
                 </CardHeader>
                 <CardDescription>
                     <Button onClick={async () => {
@@ -52,7 +52,7 @@ export const SolWallet = () => {
             </Card>
 
             <Table>
-                <TableCaption>ETH Addresses</TableCaption>
+                <TableCaption>SOL Addresses</TableCaption>
                 <TableHeader>
                     <TableRow>
                         <TableHead>Address</TableHead>
